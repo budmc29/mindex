@@ -15,11 +15,15 @@ gem 'unicorn'
 
 group :development do
   gem 'capistrano-rails'
+  gem 'pry-rails'
 end
 
 group :development, :test do
-  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'factory_girl'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'dotenv-rails'
 end
