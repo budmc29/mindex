@@ -1,0 +1,3 @@
+== Mindex
+
+Project managment tool.
